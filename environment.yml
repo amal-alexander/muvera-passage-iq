@@ -1,0 +1,14 @@
+name: muvera-app
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip
+  - pip:
+    - streamlit>=1.28.0
+    - sentence-transformers>=2.2.2
+    - plotly>=5.15.0
