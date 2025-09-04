@@ -1,0 +1,37 @@
+# Core Streamlit framework
+streamlit>=1.28.0,<2.0.0
+
+# Machine Learning and NLP
+sentence-transformers>=2.2.2,<3.0.0
+scikit-learn>=1.3.0,<2.0.0
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+
+# Visualization
+plotly>=5.15.0,<6.0.0
+
+# Text Processing (using 're' from stdlib, but keeping regex as backup)
+# regex>=2023.8.8
+
+# Core ML dependencies for sentence-transformers
+torch>=2.0.0,<3.0.0
+transformers>=4.32.0,<5.0.0
+tokenizers>=0.13.3,<1.0.0
+huggingface-hub>=0.16.4,<1.0.0
+
+# HTTP and networking (usually auto-installed, but pinning for stability)
+requests>=2.31.0,<3.0.0
+urllib3>=2.0.4,<3.0.0
+certifi>=2023.7.22
+
+# Optional: Uncomment for better text processing
+# spacy>=3.6.0
+
+# Optional: GPU support (uncomment if needed)
+# torch-audio>=2.0.0,<3.0.0
+# torchaudio>=2.0.0,<3.0.0
+
+# Development/Testing (uncomment if needed)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
